@@ -22,6 +22,7 @@ import android.widget.TextView;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.VersionInfo;
 
+import baidumapsdk.demo.custom.LocationDemo2;
 import baidumapsdk.demo.map.LocationDemo;
 import baidumapsdk.demo.map.LayersDemo;
 import baidumapsdk.demo.map.HeatMapDemo;
@@ -126,6 +127,8 @@ public class BMapApiDemoMain extends Activity {
                     UISettingDemo.class),
             new DemoInfo(R.string.demo_title_location,
                     R.string.demo_desc_location, LocationDemo.class),
+            new DemoInfo(R.string.demo_title_location2,
+                    R.string.demo_desc_location2, LocationDemo2.class),
             new DemoInfo(R.string.demo_title_geometry,
                     R.string.demo_desc_geometry, GeometryDemo.class),
             new DemoInfo(R.string.demo_title_overlay,

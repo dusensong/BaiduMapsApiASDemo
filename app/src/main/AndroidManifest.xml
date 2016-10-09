@@ -34,6 +34,7 @@
 
 
     <application
+        android:theme="@style/AppTheme"
         android:name=".DemoApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -93,6 +94,12 @@
             android:name=".map.LocationDemo"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/demo_name_location"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".custom.LocationDemo2"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="定位选址功能"
             android:screenOrientation="portrait" >
         </activity>
         <activity

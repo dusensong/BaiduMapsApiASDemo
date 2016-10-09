@@ -23,6 +23,8 @@
     <string name="demo_name_location">定位图层展示</string>
     <string name="demo_title_location">定位图层展示--LocationDemo</string>
     <string name="demo_desc_location">介绍定位图层的基本用法</string>
+    <string name="demo_title_location2">定位选址功能--LocationDemo2</string>
+    <string name="demo_desc_location2">仿饿了么定位选址功能实现</string>
     <string name="demo_name_geometry">自定义绘制功能，折线可点击</string>
     <string name="demo_title_geometry">自定义绘制功能--GeometryDemo</string>
     <string name="demo_desc_geometry">介绍自定义绘制点、线、多边形、圆等几何图形和文字</string>
@@ -124,6 +126,5 @@
     <string name="title_activity_texture_map_view_demo">TextureMapViewDemo</string>
     <string name="title_activity_poi_near_by_search_demo">PoiNearBySearchDemo</string>
     <string name="instruction">当设计的UI与地图部分重叠时，设置地图的padding值,以防止UI遮挡</string>
-
 
 </resources>
